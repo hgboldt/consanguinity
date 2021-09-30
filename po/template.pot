@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-30 14:26-0400\n"
+"POT-Creation-Date: 2021-09-30 14:47-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,10 @@ msgstr ""
 
 #: consanguinity.py:83
 msgid "Descendants"
+msgstr ""
+
+#: consanguinity.py:84
+msgid "Pedigrees"
 msgstr ""
 
 #: consformatter.py:70

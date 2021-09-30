@@ -81,6 +81,7 @@ MSG_SHOW_PEDIGREES = _('Display pedigrees')
 MSG_PED_COLLAPSE = _('Pedigree collapse')
 MSG_SPOUSAL_CONSANGUINITY = _('Spousal consanguinity')
 MSG_DESCENDANTS = _('Descendants')
+MSG_PEDIGREES = _('Pedigrees')
 
 #---------------------#
 # Module constants    #
@@ -874,7 +875,7 @@ class PedigreesWindow(Gtk.Window):
         self.db = db
         self.uistate = uistate
 
-        Gtk.Window.__init__(self, title=MSG_DESCENDANTS)
+        Gtk.Window.__init__(self, title=MSG_PEDIGREES)
         self.set_default_size(600, 800)
 
         box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
